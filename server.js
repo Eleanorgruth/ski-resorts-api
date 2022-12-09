@@ -41,7 +41,7 @@ app.post('/api/v1/resorts', (request, response) => {
 });
 
 app.delete('/api/v1/resorts/:id', (request, response) => {
- 
+ //Test
 })
 
 app.listen(app.get('port'), () => {
